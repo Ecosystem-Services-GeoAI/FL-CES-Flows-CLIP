@@ -1,0 +1,35 @@
+name: FL-CES-Flows-CLIP
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab
+  - ipykernel
+
+  # Core
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - joblib
+
+  # Plotting / export
+  - matplotlib
+  - seaborn
+  - openpyxl
+
+  # Geospatial
+  - geopandas
+  - shapely
+  - pyogrio
+
+  # ML
+  - pytorch
+  - torchvision
+  - pip:
+      - open-clip-torch==2.29.0
+      - timm==1.0.22
+      - ftfy==6.3.1
+      - regex==2025.11.3
+      - tqdm==4.67.1
