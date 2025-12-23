@@ -1,4 +1,15 @@
 # FL-CES-FLOWS-CLIP  
+[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
+[![Conda](https://img.shields.io/badge/conda-environment-43B02A?style=plastic&logo=anaconda&logoColor=white)](environment.yml)
+[![License](https://img.shields.io/badge/License-Apache%202.0-4B6CB7?style=plastic)](LICENSE)
+[![Project Website](https://img.shields.io/badge/View%20Project-GeoAI%20CES-00ACC1?style=plastic)](https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/)
+[![Preprint](https://img.shields.io/badge/Preprint-EcoEvoRxiv-2E7D32?style=plastic)](https://doi.org/10.32942/X29S8C)
+
+
+
+
+
+
 **Mapping Cultural Ecosystem Services in Florida withe CLIP-BRF-ZS module.**
 
 ---
@@ -22,7 +33,7 @@ The workflow leverages **Flickr imagery (2014–2019)** to support scalable, int
   <img src="assets/platform.png" width="80%" alt="Web">
 </p>
 
-[![Project Website](https://img.shields.io/badge/View%20Project-GeoAI%20CES-5C6BC0?style=plastic)](https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/)
+[![Project Website](https://img.shields.io/badge/View%20Project-GeoAI%20CES-00ACC1?style=plastic)](https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/)
 ---
 
 ## Installation & Quick Start
@@ -88,5 +99,3 @@ If you use this repository, please cite one or more of the following works:
 > In **Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL ’25)**,  
 > November 3–6, 2025, Minneapolis, MN, USA. ACM, New York, NY, USA, 4 pages.  
 > https://doi.org/10.1145/3748636.3764178
-
-
