@@ -78,14 +78,14 @@ FL-CES-FLOWS-CLIP/
 └── README.md
 ```
 Large intermediate outputs (e.g., full-resolution CSV or GeoTIFF files) are generated during notebook execution and are not required for installation.
-
+<!--
 ## Method Overview
 - **Vision–Language Model** : OpenCLIP (MobileCLIP)
 - **Learning Paradigm**    : Zero-shot CLIP + Binary Random Forest
 - **Spatial Aggregation**  : 1 km grids and PUD statistics
 - **Study Area**           : Florida, USA
 - **Time Period**          : 2014–2019
-
+-->
 ## Citation
 
 If you use this repository, please cite one or more of the following works:
