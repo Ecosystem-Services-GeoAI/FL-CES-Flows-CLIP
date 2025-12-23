@@ -88,8 +88,46 @@ Large intermediate outputs (e.g., full-resolution CSV or GeoTIFF files) are gene
 -->
 ## Citation
 
-If you use this repository, please cite one or more of the following works:
+If you use this repository, please cite one or more of the following works.
+**Citation files (RIS format)** — copy and import into Zotero / EndNote / Mendeley.
 
+```bash
+TY  - PREPRINT
+TI  - Mapping Cultural Ecosystem Service Flows from Social Media Imagery with Vision–Language Models: A Zero-Shot CLIP Framework
+AU  - Liao, Hao-Yu
+AU  - Zhao, Chang
+AU  - Koylu, Caglar
+AU  - Cao, Haichao
+AU  - Qiu, Jian
+AU  - Callaghan, Corey T.
+AU  - Song, Jie
+AU  - Shao, Wei
+PY  - 2025
+DO  - 10.32942/X29S8C
+UR  - https://doi.org/10.32942/X29S8C
+JO  - EcoEvoRxiv
+ER  -
+```
+```bash
+TY  - CONF
+TI  - Mapping Cultural Ecosystem Services Using One-Shot In-Context Learning with Multimodal Large Language Models
+AU  - Liao, Hao-Yu
+AU  - Zhao, Chang
+AU  - Song, Jie
+AU  - Shao, Wei
+PY  - 2025
+DO  - 10.1145/3748636.3764178
+UR  - https://doi.org/10.1145/3748636.3764178
+JO  - Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems
+VL  - 33
+SP  - 1
+EP  - 4
+PB  - Association for Computing Machinery
+CY  - Minneapolis, MN, USA
+ER  -
+```
+<!--
+* Alternative
 > **Liao, H.-Y., Zhao, C.\*, Koylu, C., Cao, H., Qiu, J., Callaghan, C. T., Song, J., & Shao, W. (2025).**  
 > *Mapping Cultural Ecosystem Service Flows from Social Media Imagery with Vision–Language Models: A Zero-Shot CLIP Framework.*  
 > EcoEvoRxiv. https://doi.org/10.32942/X29S8C
@@ -99,3 +137,4 @@ If you use this repository, please cite one or more of the following works:
 > In **Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL ’25)**,  
 > November 3–6, 2025, Minneapolis, MN, USA. ACM, New York, NY, USA, 4 pages.  
 > https://doi.org/10.1145/3748636.3764178
+-->
