@@ -10,7 +10,7 @@
 
 
 
-**Mapping Cultural Ecosystem Services in Florida withe CLIP-BRF-ZS module.**
+**Mapping Cultural Ecosystem Services in Florida with the CLIP-BRF-ZS module.**
 
 ---
 
