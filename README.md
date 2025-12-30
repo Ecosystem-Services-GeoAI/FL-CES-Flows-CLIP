@@ -30,7 +30,12 @@ The workflow leverages **Flickr imagery (2014–2019)** across the state of Flor
 ---
 ## Interactive Web Application
 <p align="center">
-  https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/ <br>
+  <a href="https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/">
+    https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/
+  </a>
+</p>
+
+<p align="center">
   <img src="assets/platform.png" width="80%" alt="Web">
 </p>
 
