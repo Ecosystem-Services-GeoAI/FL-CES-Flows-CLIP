@@ -10,19 +10,19 @@
 
 
 
-**Mapping Cultural Ecosystem Services in Florida with the CLIP-BRF-ZS module.**
+**Mapping Cultural Ecosystem Service Flows from Social Media Imagery with Vision–Language Models: A Zero-Shot CLIP Framework**
 
 ---
 
 ## Overview
 
-This repository provides code and reproducible workflows for mapping **Cultural Ecosystem Services (CES)** across Florida using a **GeoAI-based framework** that integrates:
+This repository provides code and reproducible workflows for mapping **Cultural Ecosystem Services (CES)** from **Flickr images** using the open-source **Contrastive Language–Image Pretraining (CLIP) model** that integrates:
 
-- **CLIP-based zero-shot image classification**
-- **Binary Random Forests (BRF)**
-- **Spatial aggregation using 1 km grids and PUD statistics**
+- **CLIP's visual embeddings-based Binary Random Forests (BRF) for open-set image filtering**
+- **Zero-shot CLIP for CES image classification**
+- **CES flow mapping as indicated by average annual Photo-User-Days (PUD) and average annual PUD/user at 1 km resolution**
 
-The workflow leverages **Flickr imagery (2014–2019)** to support scalable, interpretable, and reproducible CES analysis.
+The workflow leverages **Flickr imagery (2014–2019)** across the state of Florida's natural and working lands to support scalable, interpretable, and reproducible CES analysis.
 <p align="center">
   <img src="assets/flowchart.tif" width="50%" alt="Pipeline chart">
 </p>
@@ -72,7 +72,7 @@ notebooks/CLIP-BRF-ZS/Main.ipynb
 FL-CES-FLOWS-CLIP/
 ├── notebooks/          CLIP-BRF-ZS and CES analysis workflows
 ├── metadata/           Aggregated CES and PUD outputs
-├── model/              Trained Binary Random Forest models
+├── model/              CLIP's visual embeddings-based Binary Random Forest models
 ├── figures/            Figures outputs
 ├── environment.yml     Conda environment specification
 └── README.md
@@ -80,9 +80,9 @@ FL-CES-FLOWS-CLIP/
 Large intermediate outputs (e.g., full-resolution CSV or GeoTIFF files) are generated during notebook execution and are not required for installation.
 <!--
 ## Method Overview
-- **Vision–Language Model** : OpenCLIP (MobileCLIP)
-- **Learning Paradigm**    : Zero-shot CLIP + Binary Random Forest
-- **Spatial Aggregation**  : 1 km grids and PUD statistics
+- **Vision–Language Model** : MobileCLIP
+- **Learning Paradigm**    : CLIP's visual embeddings-based Binary Random Forest + Zero-shot CLIP for CES classification
+- **CES Flow Mapping**  : Average annual PUD and PUD/user at 1 km resolution
 - **Study Area**           : Florida, USA
 - **Time Period**          : 2014–2019
 -->
@@ -97,10 +97,10 @@ TI  - Mapping Cultural Ecosystem Service Flows from Social Media Imagery with Vi
 AU  - Liao, Hao-Yu
 AU  - Zhao, Chang
 AU  - Koylu, Caglar
-AU  - Cao, Haichao
-AU  - Qiu, Jian
+AU  - Cao, Haojie
+AU  - Qiu, JiangXiao
 AU  - Callaghan, Corey T.
-AU  - Song, Jie
+AU  - Song, Jiayi
 AU  - Shao, Wei
 PY  - 2025
 DO  - 10.32942/X29S8C
@@ -113,7 +113,7 @@ TY  - CONF
 TI  - Mapping Cultural Ecosystem Services Using One-Shot In-Context Learning with Multimodal Large Language Models
 AU  - Liao, Hao-Yu
 AU  - Zhao, Chang
-AU  - Song, Jie
+AU  - Song, Jiayi
 AU  - Shao, Wei
 PY  - 2025
 DO  - 10.1145/3748636.3764178
@@ -128,11 +128,11 @@ ER  -
 ```
 <!--
 * Alternative
-> **Liao, H.-Y., Zhao, C.\*, Koylu, C., Cao, H., Qiu, J., Callaghan, C. T., Song, J., & Shao, W. (2025).**  
+> **Liao, H.-Y., Zhao, C.\*, Koylu, C., Cao, H.J., Qiu, J.X., Callaghan, C. T., Song, J.Y., & Shao, W. (2025).**  
 > *Mapping Cultural Ecosystem Service Flows from Social Media Imagery with Vision–Language Models: A Zero-Shot CLIP Framework.*  
 > EcoEvoRxiv. https://doi.org/10.32942/X29S8C
 
-> **Liao, H.-Y., Zhao, C., Song, J., & Shao, W. (2025).**  
+> **Liao, H.-Y., Zhao, C.\*, Song, J.Y., & Shao, W. (2025).**  
 > *Mapping Cultural Ecosystem Services Using One-Shot In-Context Learning with Multimodal Large Language Models.*  
 > In **Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL ’25)**,  
 > November 3–6, 2025, Minneapolis, MN, USA. ACM, New York, NY, USA, 4 pages.  
