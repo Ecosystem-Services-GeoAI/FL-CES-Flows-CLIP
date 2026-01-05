@@ -77,7 +77,7 @@ notebooks/CLIP-BRF-ZS/Main.ipynb
 ```bash
 FL-CES-FLOWS-CLIP/
 ├── notebooks/          CLIP-BRF-ZS and CES analysis workflows
-├── metadata/           Aggregated CES and PUD outputs
+├── model-outputs/      Aggregated CES and PUD outputs
 ├── model/              CLIP's visual embeddings-based Binary Random Forest models
 ├── figures/            Figures outputs
 ├── environment.yml     Conda environment specification
