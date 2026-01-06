@@ -9,8 +9,6 @@
 
 
 
-
-
 **Mapping Cultural Ecosystem Service Flows from Social Media Imagery with Vision–Language Models: A Zero-Shot CLIP Framework**
 
 ---
