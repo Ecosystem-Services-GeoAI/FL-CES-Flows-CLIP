@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-4B6CB7?style=plastic)](LICENSE)
 [![Project Website](https://img.shields.io/badge/View%20Project-GeoAI%20CES-00ACC1?style=plastic)](https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/)
 [![Preprint](https://img.shields.io/badge/Preprint-EcoEvoRxiv-2E7D32?style=plastic)](https://doi.org/10.32942/X29S8C)
+[![Online Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Online%20Demo-yellow?style=plastic)](https://huggingface.co/spaces/haoyuliao/FL-CES-Flows-CLIP)
 
 
 
