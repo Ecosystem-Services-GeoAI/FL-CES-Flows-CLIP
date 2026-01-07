@@ -38,6 +38,26 @@ The workflow leverages **Flickr imagery (2014–2019)** across the state of Flor
 </p>
 
 [![Project Website](https://img.shields.io/badge/View%20Project-GeoAI%20CES-00ACC1?style=plastic)](https://es-geoai.rc.ufl.edu/FL-CES-Flows-CLIP/)
+
+<p align="center">
+  🤗 Hugging Face Application: 
+  <a href="https://huggingface.co/spaces/haoyuliao/FL-CES-Flows-CLIP">
+    https://huggingface.co/spaces/haoyuliao/FL-CES-Flows-CLIP
+  </a>
+</p>
+
+<!-- <p align="center">
+  <img src="assets/Demo1.png" width="45%" alt="Web Demo 1">
+  <img src="assets/Demo2.png" width="45%" alt="Web Demo 2">
+</p> -->
+<p align="center">
+  <img src="assets/Demo1.png" width="80%" alt="Web Demo 1">
+</p>
+<p align="center">
+  <img src="assets/Demo2.png" width="80%" alt="Web Demo 2">
+</p>
+
+[![Online Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Online%20Demo-yellow?style=plastic)](https://huggingface.co/spaces/haoyuliao/FL-CES-Flows-CLIP)
 ---
 
 ## Installation & Quick Start
