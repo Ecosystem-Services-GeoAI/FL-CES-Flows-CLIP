@@ -59,7 +59,7 @@ The workflow leverages **Flickr imagery (2014–2019)** across the state of Flor
 
 [![Online Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Online%20Demo-yellow?style=plastic)](https://huggingface.co/spaces/haoyuliao/FL-CES-Flows-CLIP)
 
-* Note: If the Space is inactive, simply click the button once to start it. Please allow up to 1 minute for initialization. Thanks for your patience!
+* If the Space is inactive, simply click the button once to start it. Please allow up to 1 minute for initialization.
 ---
 
 ## Installation & Quick Start
